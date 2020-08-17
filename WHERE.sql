@@ -32,6 +32,9 @@ LIMIT 10;
     In using the WHERE cluase with non numeric data, the values need to be in single quotes and not double quotes 
 */
 
+SELECT name, website, primary_poc 
+FROM accounts
+WHERE name = 'Exxon Mobil'
 
 /*
     LIKE, NOT, or IN  can be used alongside the WHERE clause to narrow down or increase the probability of getting desired results
